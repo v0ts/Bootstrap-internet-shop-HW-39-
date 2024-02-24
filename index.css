@@ -1,0 +1,95 @@
+.header-list {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-link { 
+margin-left: 10px;
+}
+
+.hero {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    
+    background-image: url(./main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title { 
+    color: white;
+    font-family: "Kode Mono", monospace;
+    width: 555px;
+    text-align: center;
+}
+
+.hero-text {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+}
+
+.hero-button {
+    margin-top: 15zpx;
+}
+
+.order { 
+padding-top: 150px;
+padding-bottom: 150px;
+background-image: url(./order-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.order .container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-title { 
+    color: white;
+    font-family: "Kode Mono", monospace;
+}
+
+.order-text { 
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.order-list {
+    display: flex;
+    gap: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.order-button { 
+    color: white;
+}
+
+.footer { 
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title { 
+    color: lightblue;
+}
