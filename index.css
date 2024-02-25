@@ -47,7 +47,7 @@ margin-left: 10px;
 .order { 
 padding-top: 150px;
 padding-bottom: 150px;
-background-image: url(./order-bg.png);
+background-color: #bfbfbf;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -93,3 +93,16 @@ margin-right: auto;
 .footer-title { 
     color: lightblue;
 }
+
+.cards {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cards-title { 
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
